@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Oswald-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+li {
+    list-style-type: disc;
+    margin: 15px;
+}
+
+.navigation {
+    font-family:  'Oswald';
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    color: red;
+    text-decoration: underline;
+}
+
+.text {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.foto-wrap {
+    margin: 20px 0;
+}
+
+img {
+    max-width: 900px;
+    width: 100%;
+}
+
+.head-title {
+    background-color: chartreuse;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.charackteristics__item {
+    line-height: 1.5;
+}
+
+.charackteristics__item span {
+    font-weight: 700;
+}
+
+.car {
+    margin: 20px 0;
+}
+
+.car-name {
+    font-family:  'Oswald';
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    color: red;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.about-car {
+    line-height: 1.5;
+}
+
+.decoration p {
+    position: absolute;
+    right: -300px;
+    top: 300px;
+    font-size: 60px;
+    transform: rotate(90deg);
+    font-weight: 700;
+}
+
